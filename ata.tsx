@@ -1,15 +1,13 @@
 /*BY Osderda.*/
 import React from 'react';
-import { Box, Flex, Text, IconButton, Stack, Divider } from '@chakra-ui/react';
-import { FaGithub, FaDiscord, FaTwitter } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import { Box } from '@chakra-ui/react';
 const styles = {
   container: {
     position: 'relative' as 'relative',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: '-86px', // Text ve SVG arasındaki boşluk
+    gap: '-86px', //  ve SVG arasındaki boşluk
   },
   text: {
     fontSize: '1.1rem', 
@@ -78,7 +76,7 @@ const AtaturkSignature: React.FC = () => (
     <AtaSvg />
   </Box>
       <div style={styles.container}>
-        <p style={styles.text}>
+        <p style={styles.}>
           Millete efendilik yoktur; hizmet etme vardır. Bu millete hizmet eden, onun efendisi olur
         </p>
 
