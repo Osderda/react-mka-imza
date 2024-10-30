@@ -76,7 +76,7 @@ const AtaturkSignature: React.FC = () => (
     <AtaSvg />
   </Box>
       <div style={styles.container}>
-        <p style={styles.}>
+        <p style={styles.text}>
           Millete efendilik yoktur; hizmet etme vardır. Bu millete hizmet eden, onun efendisi olur
         </p>
 
